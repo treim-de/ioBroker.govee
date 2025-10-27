@@ -33,7 +33,7 @@ const ignoredCommands = {
 // Load your modules here, e.g.:
 // const fs = require("fs");
 const axios = require('axios');
-const convert = require('color-convert');
+const convert = require('color-convert').default || require('color-convert');
 var startup = true;
 var lastcommand;
 var devicelist = [];
@@ -101,6 +101,18 @@ class Govee extends utils.Adapter {
 			this.log.info("Govee API Key: " + this.cryptData(govee_api_key));
 		} else {
 			this.log.error("Govee API Key: Key is not set (Please set your Govee API Key in the instance config)");
+		}
+
+		if (convert) {
+			this.postLog(Object.getOwnPropertyNames(convert),"info");
+			this.postLog('color-convert imported successfully',"info");
+		} else {
+			this.postLog('error importing color-convert',"error");
+		}
+		if (convert.rgb) {
+			this.postLog('convert.rgb imported successfully',"info");
+		} else {
+			this.postLog('error importing convert.rgb',"error");
 		}
 		
 		setInterval(() => {

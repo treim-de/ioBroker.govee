@@ -1,12 +1,12 @@
 {
   "name": "iobroker.govee",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "control govee lights over there api",
   "author": {
     "name": "Tobias Reim",
     "email": "somecontact@gmail.com"
   },
-  "homepage": "https://github.com/nbuenger/ioBroker.govee",
+  "homepage": "https://github.com/treim-de/ioBroker.govee",
   "license": "MIT",
   "keywords": [
     "govee",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nbuenger/ioBroker.govee"
+    "url": "https://github.com/treim-de/ioBroker.govee"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^2.5.0",
@@ -47,7 +47,7 @@
     "test": "node node_modules/mocha/bin/mocha"
   },
   "bugs": {
-    "url": "https://github.com/nbuenger/ioBroker.govee/issues"
+    "url": "https://github.com/treim-de/ioBroker.govee/issues"
   },
   "readmeFilename": "README.md"
 }

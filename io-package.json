@@ -1,7 +1,7 @@
 {
 	"common": {
 		"name": "govee",
-		"version": "0.0.5",
+		"version": "0.0.8",
 		"news": {
 			"0.0.1": {
 				"en": "initial release",
@@ -22,6 +22,14 @@
 			"0.0.5": {
 				"en": "bugfixes for model H6104, H6159",
 				"de": "bugfixes for model H6104, H6159"
+			},
+			"0.0.7": {
+				"en": "Add color-convert to package.json",
+				"de": "Add color-convert to package.json"
+			},
+			"0.0.8": {
+				"en": "Fix color-convert import",
+				"de": "Fix color-convert import"
 			}
 		},
 		"title": "Govee",
@@ -31,10 +39,11 @@
 		},
 		"desc": {
 			"en": "control govee lights over there api",
-			"de": "steuere deine Govee Leuchtmittelüber die API"
+			"de": "Steuere deine Govee Leuchtmittel über die API "
 		},
 		"authors": [
-			"Nick Bünger <buenger.nick@gmail.com>"
+			"Tobias Reim <somecontact@gmail.com>",
+			"Nils Buenger <nbuenger@gmail.com>"
 		],
 		"keywords": [
 			"govee",
