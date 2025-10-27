@@ -3,8 +3,8 @@
   "version": "0.0.6",
   "description": "control govee lights over there api",
   "author": {
-    "name": "Nick Bünger",
-    "email": "buenger.nick@gmail.com"
+    "name": "Tobias Reim",
+    "email": "somecontact@gmail.com"
   },
   "homepage": "https://github.com/nbuenger/ioBroker.govee",
   "license": "MIT",
